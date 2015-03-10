@@ -1,0 +1,2 @@
+<h1><%= @flight.airline.name %></h1>
+<h3><%= link_to @flight.number, flight_passengers_path(:flight_id => @flight.id) %></h3>

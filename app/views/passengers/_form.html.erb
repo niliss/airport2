@@ -1,0 +1,7 @@
+<%= form_for [@flight,@passenger] do |form| %>
+  <%= form.label "Name" %></br>
+  <%= form.text_field :name %></br>
+  <%= form.label "Passport" %></br>
+  <%= form.text_field :passport %> </br>
+  <%= form.submit %>
+<% end -%>

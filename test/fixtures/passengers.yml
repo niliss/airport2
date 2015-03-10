@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  flight: MyString
+  name: MyString
+  passport: MyString
+
+two:
+  flight: MyString
+  name: MyString
+  passport: MyString
